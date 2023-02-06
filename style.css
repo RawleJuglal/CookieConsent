@@ -138,6 +138,7 @@ main{
 
 .modal-inner-loading{
   text-align: center;
+  margin:0 auto;
 }
 
 /* modal buttons */
@@ -174,6 +175,10 @@ color: whitesmoke;
   justify-content: center;
 }
 
+.reverse{
+  flex-direction: row-reverse;
+}
+
 .modal-btn{
   padding: 10px 24px;
   cursor: pointer;
@@ -203,6 +208,25 @@ input{
   height: 140px;
   line-height: 23px;
   margin-bottom: 0;
+}
+
+.modal-inner h2{
+  font-size:1.4rem;
+  margin-bottom:10px;
+}
+
+.modal-inner p{
+  margin-bottom: 10px;
+}
+
+.idiot-gif{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.idiot-gif img{
+  box-shadow: 1px 1px 3px #999;
+  border-radius: 5px;
 }
 
 @media screen and (min-width:768px) {
